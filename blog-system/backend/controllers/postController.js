@@ -31,8 +31,7 @@ const updatePost = async (req, res) => { const post
 };
 const deletePost = async (req, res) => { const post 
   = await Post.findById(req.params.id); if (post) {
-    await post.remove(); res.json({ message: 'Post 
-    removed' });
+    await post.remove(); res.json({ message: 'Post removed' });
   } else {
     res.status(404).json({ message: 'Post not found' 
     });
