@@ -1,6 +1,6 @@
 import  'react';
-import UserProfile from '../components/UserProfile';
-import styles from './Dashboard.module.css';
+import UserProfile from '../components/UserProfile.jsx';
+import {styles} from './Dashboard.module.css'
 
 const Dashboard = () => {
   return (

@@ -7,16 +7,16 @@ import {
   Redirect,
 } from "react-router-dom";
 import { useSelector } from "react-redux";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Dashboard from "./pages/Dashboard";
-import CreatePost from "./pages/CreatePost";
-import EditPost from "./pages/EditPost";
-import PostDetails from "./pages/PostDetails";
-import UserProfile from "./components/UserProfile";
-import PostsList from "./components/PostsList";
-import Navbar from "./components/Navbar";
+import Home from "./pages/Home.jsx";
+import Login from "./pages/Login.jsx";
+import Register from "./pages/Register.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+import CreatePost from "./pages/CreatePost.jsx";
+import EditPost from "./pages/EditPost.jsx";
+import PostDetails from "./pages/PostDetails.jsx";
+import UserProfile from "./components/UserProfile.jsx";
+import PostsList from "./components/PostsList.jsx";
+import Navbar from "./components/Navbar.jsx";
 import styles from "./App.module.css";
 
 const PrivateRoute = ({ component: Component, ...rest }) => {

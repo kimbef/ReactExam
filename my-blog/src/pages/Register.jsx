@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { register } from '../features/userSlice';
-import styles from './App.module.css';
+import styles from './Register.module.css';
 
 const Register = () => {
   const [username, setUsername] = useState('');

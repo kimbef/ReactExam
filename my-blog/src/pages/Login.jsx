@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { login } from '../features/userSlice';
-import styles from './App.module.css';
+import styles from './Login.module.css';
 
 const Login = () => {
   const [username, setUsername] = useState('');

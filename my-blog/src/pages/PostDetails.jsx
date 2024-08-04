@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { fetchPostById } from '../features/postSlice';
-import styles from './App.module.css';
+import styles from './PostDetails.module.css';
 
 const PostDetails = () => {
   const { id } = useParams();
