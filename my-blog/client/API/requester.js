@@ -1,4 +1,6 @@
-import { getAccessToken } from "../utils/AuthUtils/authUtils";
+import { serverUrl , serverEndpoints } from '../src/common/gen.js';
+
+import { getAccessToken } from '../src/utils/authUtil/AuthUtil';
 
 export async function requester(method, url, data) {
   const options = {};

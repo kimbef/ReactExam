@@ -1,0 +1,159 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+
+button:hover {
+  border-color: #646cff;
+}
+
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+    a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+
+/* Info section within the footer */
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+/* Service information section */
+.infoService {
+  text-align: left;
+  max-width: 400px;
+}
+
+/* Headings for different sections in the footer */
+.infoService h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Text elements styled as buttons */
+.button {
+  color: #007bff;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.button:hover {
+  color: #0056b3;
+}
+
+/* Container for video or other media */
+.videoContainer {
+  max-width: 500px;
+}
+
+/* Main footer heading */
+footer  {
+  font-size: 1.75em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Wrapper for social media icons */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Styling for individual social media icons */
+.icon {
+  font-size: 1.5em;
+  color: #333;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.icon:hover {
+  color: #007bff;
+  transform: scale(1.1);
+}
+
+/* Specific styles for each social media icon */
+.instagram { color: #E4405F; }
+.instagram:hover { color: #C13584; }
+
+.linkedin { color: #0077B5; }
+.linkedin:hover { color: #005582; }
+
+.youtube { color: #FF0000; }
+.youtube:hover { color: #CC0000; }
+
+.twitter { color: #1DA1F2; }
+.twitter:hover { color: #0d8af0; }
+
+.github { color: #333; }
+.github:hover { color: #24292e; }
